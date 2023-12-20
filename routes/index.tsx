@@ -5,7 +5,7 @@ export default function Home() {
     <div class="h-screen bg-[#b9bab9] overflow-hidden">
       <Hamburger />
       <div class="float-right mt-10 h-screen relative flex flex-col items-end justify-between">
-        <h2 class="text-4xl font pt-4 pr-4">my portfolio</h2>
+        <h2 class="text-4xl pt-4 pr-4">my portfolio</h2>
         <h1 class="text-8xl pb-4 pr-4 text-right font-bold">
           kirsty <br /> ammundsen
         </h1>
