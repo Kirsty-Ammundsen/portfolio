@@ -5,8 +5,13 @@ export default function Hamburger() {
   const genericHamburgerLine = `h-1 w-6 my-1 rounded-full bg-black transition ease transform duration-300`;
 
   return (
+    <div className={`${
+      isOpen
+        ? "rounded-lg pt-4 bg-[#4f504f] h-screen sm:w-screen md:w-1/2 transition ease transform duration-300"
+        : "bg-[#b9bab9] pt-4"
+    }`}>
     <button
-      className="m-4 flex flex-col h-12 w-12 border-2 border-black rounded justify-center items-center group"
+      className="ml-4 flex flex-col h-12 w-12 border-2 border-black rounded justify-center items-center group"
       onClick={() => setIsOpen(!isOpen)}
     >
       <div
@@ -29,5 +34,6 @@ export default function Hamburger() {
         }`}
       />
     </button>
+    </div>
   );
 };
