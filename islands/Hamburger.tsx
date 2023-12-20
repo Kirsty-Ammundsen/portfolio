@@ -41,10 +41,10 @@ export default function Hamburger() {
         <ul
           className={"text-white text-4xl font-bold flex flex-col gap-8 pr-10"}
         >
-          <li>about</li>
-          <li>projects</li>
-          <li>blog</li>
-          <li>contact</li>
+          <li className={"hover:text-black"}>about</li>
+          <li className={"hover:text-black"}>projects</li>
+          <li className={"hover:text-black"}>blog</li>
+          <li className={"hover:text-black"}>contact</li>
         </ul>
       </nav>
     </div>
