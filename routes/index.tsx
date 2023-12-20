@@ -1,18 +1,18 @@
 export default function Home() {
   return (
-    <div class="px-4 py-8 mx-auto bg-[#b9bab9]">
-      <div class="max-w-screen-md mx-auto flex flex-col items-center justify-center">
+    <div class="h-screen pt-8 bg-[#b9bab9] overflow-hidden">
+      <div class="h-screen flex flex-col items-end justify-between">
+        <h2 class="text-4xl font pt-4 pr-4">my portfolio</h2>
+        <h1 class="text-8xl pb-4 pr-4 text-right font-bold">kirsty <br/> ammundsen</h1>
+       
+
         <img
-          class="my-6"
-          src="/logo.svg"
-          width="128"
-          height="128"
-          alt="the Fresh logo: a sliced lemon dripping with juice"
+          class="my-6 rounded-md"
+          src="/KirstyPortfolio.jpg"
+          width="300"
+          height="200"
+          alt="Black and white portrait of Kirsty smiling widely, looking business professional"
         />
-        <h1 class="text-4xl font-bold">Kirsty's Portfolio</h1>
-        <p class="my-4">
-          I'm updating the message!
-        </p>
       </div>
     </div>
   );
