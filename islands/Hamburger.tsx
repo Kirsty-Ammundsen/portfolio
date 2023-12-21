@@ -15,6 +15,7 @@ export default function Hamburger() {
     >
       <button
         className="ml-4 flex flex-col h-12 w-12 border-2 border-black rounded justify-center items-center group"
+        aria-label="hamburger menu"
         onClick={() => setIsOpen(!isOpen)}
       >
         <div
@@ -39,7 +40,7 @@ export default function Hamburger() {
       </button>
       <nav className={isOpen ? "float-right" : "hidden"}>
         <ul
-          className={"text-white text-4xl font-bold flex flex-col gap-8 pt-12 px-16"}
+          className={"text-white text-4xl font-bold flex flex-col gap-8 pt-12 px-16"} aria-expanded
         >
           <a href="/"><li className={"hover:text-black"}>home</li></a>
           <a href="/about"><li className={"hover:text-black"}>about</li></a>

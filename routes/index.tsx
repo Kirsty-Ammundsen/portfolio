@@ -13,13 +13,14 @@ export default function Home() {
           height="200"
           alt="Black and white pohutukawa tree"
         /> */}
-        <h2 class="hidden lg:block text-4xl pt-4 pr-4 mx-20">'welcome to my homepage - here you can find out more about me, see my projects, and get in contact'</h2>
+        <h2 class="bg-white hidden lg:block text-4xl py-6 px-4
+        rounded-lg opacity-40 ml-20 mr-28 font-cursive">'welcome to my homepage - here you can find out more about me, see my projects, and get in contact'</h2>
       </div>
       <div class="float-right mt-10 h-screen relative flex flex-col items-end justify-between">
-        <h2 class="text-4xl pt-4 pr-4">my portfolio</h2>
-        <h1 class="text-8xl pb-4 pr-4 text-right font-bold">
+        <h1 class="text-4xl pt-4 pr-4">my portfolio</h1>
+        <h2 class="text-8xl pb-4 pr-4 text-right font-bold">
           kirsty <br /> ammundsen
-        </h1>
+        </h2>
         <img
           class="my-6 rounded-md"
           src="/KirstyPortfolio.jpg"
