@@ -39,12 +39,13 @@ export default function Hamburger() {
       </button>
       <nav className={isOpen ? "float-right" : "hidden"}>
         <ul
-          className={"text-white text-4xl font-bold flex flex-col gap-8 pt-12 px-20"}
+          className={"text-white text-4xl font-bold flex flex-col gap-8 pt-12 px-16"}
         >
-          <li className={"hover:text-black"}>about</li>
-          <li className={"hover:text-black"}>projects</li>
-          <li className={"hover:text-black"}>blog</li>
-          <li className={"hover:text-black"}>contact</li>
+          <a href="/"><li className={"hover:text-black"}>home</li></a>
+          <a href="/about"><li className={"hover:text-black"}>about</li></a>
+          <a href="/projects"><li className={"hover:text-black"}>projects</li></a>
+          {/* <a href="/blog"><li className={"hover:text-black"}>blog</li></a> */}
+          <a href="/contact"><li className={"hover:text-black"}>contact</li></a>
         </ul>
       </nav>
     </div>

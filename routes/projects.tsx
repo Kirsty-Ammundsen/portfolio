@@ -1,6 +1,6 @@
 import Hamburger from "../islands/Hamburger.tsx";
 
-export default function Home() {
+export default function Projects() {
   return (
     <div class="h-screen bg-[#b9bab9] overflow-hidden">
       <Hamburger />
@@ -13,7 +13,7 @@ export default function Home() {
           height="200"
           alt="Black and white pohutukawa tree"
         /> */}
-        <h2 class="hidden lg:block text-4xl pt-4 pr-4 mx-20">'welcome to my homepage - here you can find out more about me, see my projects, and get in contact'</h2>
+        <h2 class="hidden lg:block text-4xl pt-4 pr-4 mx-20">"welcome to my homepage - here you can find out more about me, see my projects, and get in contact"</h2>
       </div>
       <div class="float-right mt-10 h-screen relative flex flex-col items-end justify-between">
         <h2 class="text-4xl pt-4 pr-4">my portfolio</h2>
