@@ -4,16 +4,16 @@ export default function Contact() {
   return (
     <div class="h-screen bg-[#b9bab9] overflow-hidden">
       <Hamburger />
-      <div class="flex justify-between">
-      <div class="flex flex-col items-center justify-center">
-        {/* <img
-          class="my-6 rounded-md"
-          src="/silverPohutukawa.jpg"
-          width="250"
-          height="200"
-          alt="Black and white pohutukawa tree"
-        /> */}
-        <h2 class="hidden lg:block text-4xl pt-4 pr-4 mx-20">"welcome to my homepage - here you can find out more about me, see my projects, and get in contact"</h2>
+      <div class="flex justify-between ">
+      <div class="flex flex-col items-center justify-center bg-white opacity-60">
+        <p class="text-2xl py-6 px-6">Resume - <a class="hover:text-green-800 font-bold" href="https://docs.google.com/document/d/1E1kWHfyMwnAf44LNHI8WtqTw7mKqbCDaPjlws0O73aA/export?format=pdf">download my resume</a>
+        <br/>
+        <br/>
+        LinkedIn - <a class="hover:text-green-800 font-bold" href="https://www.linkedin.com/in/kirsty-ammundsen">view my profile</a>
+        <br/>
+        <br/>
+        GitHub - <a class="hover:text-green-800 font-bold" href="https://github.com/Kirsty-Ammundsen">see my code</a>
+        </p>
       </div>
       <div class="float-right mt-10 h-screen relative flex flex-col items-end justify-between">
         <h2 class="text-4xl pt-4 pr-4">contact info</h2>

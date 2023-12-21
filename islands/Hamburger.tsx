@@ -9,12 +9,12 @@ export default function Hamburger() {
     <div
       className={`float-left pt-4 ${
         isOpen
-          ? "bg-[#4f504f] h-screen w-fit transition ease transform duration-300"
+          ? "bg-[#4f504f] h-screen w-fit"
           : "bg-[#b9bab9] md:relative"
       }`}
     >
       <button
-        className="ml-4 flex flex-col h-12 w-12 border-2 border-black rounded justify-center items-center group"
+        className="ml-4 mr-20 flex flex-col h-12 w-12 border-2 border-black rounded justify-center items-center group"
         aria-label="hamburger menu"
         onClick={() => setIsOpen(!isOpen)}
       >
