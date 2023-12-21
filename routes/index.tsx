@@ -4,6 +4,17 @@ export default function Home() {
   return (
     <div class="h-screen bg-[#b9bab9] overflow-hidden">
       <Hamburger />
+      <div class="flex justify-between">
+      <div class=" mt-10">
+        {/* <img
+          class="my-6 rounded-md"
+          src="/silverPohutukawa.jpg"
+          width="250"
+          height="200"
+          alt="Black and white pohutukawa tree"
+        /> */}
+        <h2 class="text-4xl pt-4 pr-4 sm:hidden">"welcome to my homepage - here you can find out more about me, see my projects, and get in contact with me"</h2>
+      </div>
       <div class="float-right mt-10 h-screen relative flex flex-col items-end justify-between">
         <h2 class="text-4xl pt-4 pr-4">my portfolio</h2>
         <h1 class="text-8xl pb-4 pr-4 text-right font-bold">
@@ -16,6 +27,7 @@ export default function Home() {
           height="200"
           alt="Black and white portrait of Kirsty looking over her shoulder smiling"
         />
+      </div>
       </div>
     </div>
   );

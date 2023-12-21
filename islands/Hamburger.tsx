@@ -7,10 +7,10 @@ export default function Hamburger() {
 
   return (
     <div
-      className={`float-left ${
+      className={`float-left pt-4 ${
         isOpen
-          ? "pt-4 bg-[#4f504f] h-screen w-screen lg:w-1/2 transition ease transform duration-300"
-          : "bg-[#b9bab9] pt-4 md:relative"
+          ? "bg-[#4f504f] h-screen w-fit transition ease transform duration-300"
+          : "bg-[#b9bab9] md:relative"
       }`}
     >
       <button
@@ -39,7 +39,7 @@ export default function Hamburger() {
       </button>
       <nav className={isOpen ? "float-right" : "hidden"}>
         <ul
-          className={"text-white text-4xl font-bold flex flex-col gap-8 pr-10"}
+          className={"text-white text-4xl font-bold flex flex-col gap-8 pt-12 px-20"}
         >
           <li className={"hover:text-black"}>about</li>
           <li className={"hover:text-black"}>projects</li>
