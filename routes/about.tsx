@@ -6,7 +6,17 @@ export default function About() {
       <Hamburger />
       <div class="flex justify-between">
       <div class="flex flex-col items-center justify-center">
-        <h2 class="hidden lg:block text-4xl pt-4 pr-4 mx-20">"welcome to my homepage - here you can find out more about me, see my projects, and get in contact"</h2>
+        <p class="bg-white text-xl py-6 px-4
+        rounded-lg opacity-60 ml-20 mr-28 font-cursive">'Hello, my name is Kirsty - I'm a tech person with a background in healthcare.
+        <br/>
+        <br/>
+        It would be ideal to work in a job where I could meld the two together, but as I'm only at the beginning of my tech journey, I'm still open-minded about all the possibilities available to me.  I want to learn, grow, and discover where I fit in the tech space.  As long as it involves working with people and life-long learning, I think it will be fun!
+        <br/>
+        <br/>
+        Apart from that, I love solving escape rooms, eating delicious food, and travelling the world. '
+        <br/>
+        <br/>
+        To find out more, please <a class="hover:text-green-800 font-bold" href="https://docs.google.com/document/d/1E1kWHfyMwnAf44LNHI8WtqTw7mKqbCDaPjlws0O73aA/export?format=pdf">download my resume.</a></p>
       </div>
       <div class="float-right mt-10 h-screen relative flex flex-col items-end justify-between">
         <h2 class="text-4xl pt-4 pr-4">about me</h2>
