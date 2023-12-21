@@ -4,9 +4,4 @@ export default {
   content: [
     "{routes,islands,components}/**/*.{ts,tsx}",
   ],
-  theme:{
-    fontFamily:{
-      'cursive': ['Diphylleia', 'serif']
-    }
-  }
 } satisfies Config;
