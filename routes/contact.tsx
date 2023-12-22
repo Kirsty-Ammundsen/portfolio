@@ -2,7 +2,7 @@ import Hamburger from "../islands/Hamburger.tsx";
 
 export default function Contact() {
   return (
-    <div class="h-screen bg-[#b9bab9] overflow-hidden">
+    <div class="h-screen bg-primary overflow-hidden">
       <Hamburger />
       <div class="flex justify-between">
         <div class="flex flex-col items-center justify-center ">

@@ -3,11 +3,11 @@ import Tech from "../components/Tech.tsx";
 
 export default function Projects() {
   return (
-    <div class="h-screen bg-[#b9bab9] overflow-hidden">
+    <div class="h-screen bg-primary overflow-hidden">
       <Hamburger />
       <div class="flex justify-between">
         <div class="flex flex-col items-center justify-center">
-          <main class="bg-[#f2f2f2] text-2xl py-3 px-4 rounded-lg ml-20 mr-28 h-[80vh] my-20 overflow-y-scroll">
+          <main class="bg-offWhite text-2xl py-3 px-4 rounded-lg ml-20 mr-28 h-[80vh] my-20 overflow-y-scroll">
             <section class="py-3">
               <h3 class="text-2xl font-bold">Task Master</h3>
               <img

@@ -6,8 +6,8 @@ export default function About() {
       <Hamburger />
       <div class="flex justify-between">
       <div class="flex flex-col items-center justify-center">
-        <div class="bg-white text-xl py-6 px-4
-        rounded-lg opacity-60 ml-20 mr-28">
+        <div class="bg-lightGray text-xl py-6 px-4
+        rounded-lg text-darkGray ml-20 mr-28">
           <p class="py-2">'Hello, my name is Kirsty - I'm a tech person with a background in healthcare.</p>
           <p class="py-2">It would be ideal to work in a job where I could meld the two together, but as I'm only at the beginning of my tech journey, I'm still open-minded about all the possibilities available to me.  I want to learn, grow, and discover where I fit in the tech space.  As long as it involves working with people and life-long learning, I think it will be fun!</p>
           <p class="py-2">Apart from that, I love solving escape rooms, eating delicious food, and travelling the world.' </p>

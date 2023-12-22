@@ -2,12 +2,12 @@ import Hamburger from "../islands/Hamburger.tsx";
 
 export default function Home() {
   return (
-    <div class="h-screen bg-[#b9bab9] overflow-hidden">
+    <div class="h-screen bg-primary overflow-hidden">
       <Hamburger />
       <div class="flex justify-between">
       <div class="flex flex-col items-center justify-center">
-        <h2 class="bg-white hidden lg:block text-4xl py-12 px-6
-        rounded-lg opacity-60 ml-16 mr-28">'<strong>Welcome</strong> to my homepage - here you can find out more about me, see my projects, and get in contact'</h2>
+        <h2 class="bg-lightGray text-darkGray hidden lg:block text-4xl py-12 px-6
+        rounded-lg ml-16 mr-28">'<strong>Welcome</strong> to my homepage - here you can find out more about me, see my projects, and get in contact'</h2>
       </div>
       <div class="float-right mt-10 h-screen relative flex flex-col items-end justify-between">
         <h1 class="text-4xl pt-4 pr-4">my portfolio</h1>

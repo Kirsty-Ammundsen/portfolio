@@ -9,8 +9,8 @@ export default function Hamburger() {
     <div
       className={`float-left pt-4 ${
         isOpen
-          ? "bg-[#4f504f] h-screen w-fit"
-          : "bg-[#b9bab9] md:relative"
+          ? "bg-darkGray h-screen w-fit"
+          : "bg-primary md:relative"
       }`}
     >
       <button
