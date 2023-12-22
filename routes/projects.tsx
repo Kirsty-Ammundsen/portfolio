@@ -7,7 +7,7 @@ export default function Projects() {
       <Hamburger />
       <div className="flex justify-between">
         <div className="flex flex-col items-center justify-center">
-          <div className="bg-[#f2f2f2] text-2xl py-6 px-4 rounded-lg opacity-60 ml-20 mr-28 h-5/6 w-96 my-20 overflow-y-scroll">
+          <section className="bg-[#f2f2f2] text-2xl py-6 px-4 rounded-lg opacity-60 ml-20 mr-28 h-5/6 w-96 my-20 overflow-y-scroll">
             <h3>Task Master</h3>
             {/* img */}
             <h4>Tech Used</h4>
@@ -15,7 +15,7 @@ export default function Projects() {
               <Tech>TypeScript</Tech>
               <Tech>Tailwind CSS</Tech>
             </div>
-          </div>
+          </section>
         </div>
         <div className="float-right mt-10 h-screen relative flex flex-col items-end justify-between">
           <h1 className="text-4xl pt-4 pr-4">my projects</h1>
