@@ -15,16 +15,14 @@ export default function About() {
           </p>
         </div>
       </div>
-      <div class="md:mt-10 relative flex flex-col items-end md:justify-between md:float-right md:h-scree">
+      <div class="md:mt-10 relative flex flex-col items-end md:justify-between md:float-right md:h-screen">
         <h1 class="text-3xl md:text-4xl md:pt-4 pr-4">about me</h1>
         <h2 class="text-6xl md:text-8xl py-4 pr-4 text-right font-bold">
           kirsty <br /> ammundsen
         </h2>
         <img
-          class="hidden md:inline my-6 rounded-md"
+          class="w-56 hidden md:inline my-6 rounded-md"
           src="/KirstyPortfolio.jpg"
-          width="250"
-          height="200"
           alt="Black and white portrait of Kirsty looking over her shoulder smiling"
         />
       </div>
