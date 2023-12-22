@@ -7,17 +7,15 @@ export default function Projects() {
       <Hamburger />
       <div class="flex justify-between">
         <div class="flex flex-col items-center justify-center">
-          <main class="bg-offWhite text-2xl py-3 px-4 rounded-lg ml-20 mr-28 h-[80vh] my-20 overflow-y-scroll">
-            <section class="py-5">
-              <h3 class="text-2xl font-bold">Task Master</h3>
+          <main class="bg-offWhite text-2xl py-2 px-4 rounded-lg ml-20 mr-28 h-[80vh] my-20 overflow-y-scroll">
+            <section class="py-7">
+              <h3 class="text-3xl font-bold">Task Master</h3>
               <img
-                class="my-6 rounded-md"
+                class="my-8 rounded-md"
                 src="/taskmaster.png"
-                // width="250"
-                // height="200"
                 alt="Screenshots (mobile sized) of the taskmaster app layout, showing the log in, profile, tasks and stats pages."
               />
-              <h4 class="text-lg pb-2">Description:</h4>
+              <h4 class="text-lg font-semibold py-3">Description:</h4>
               <p class=" text-base">
                 A mobile app that allows physios to assign tasks to their
                 clients and track their progress as they are completed. I
@@ -27,7 +25,7 @@ export default function Projects() {
                 the database queries, API calls, to implementing chartJS to make
                 the graphs.
               </p>
-              <h4 class="text-lg py-2">Tech Used:</h4>
+              <h4 class="text-lg font-semibold py-3">Tech Used:</h4>
               <div class="flex flex-row flex-wrap justify-center gap-2">
                 <Tech>TypeScript</Tech>
                 <Tech>Tailwind CSS</Tech>
@@ -36,20 +34,18 @@ export default function Projects() {
                 <Tech>SQLite3</Tech>
               </div>
             </section>
-            <section class="py-5">
-              <h3 class="text-2xl font-bold">PAtCHboaRD</h3>
+            <section class="py-7">
+              <h3 class="text-3xl font-bold">PAtCHboaRD</h3>
               <img
-                class="my-6 rounded-md"
+                class="my-8 rounded-md"
                 src="/patchboard.png"
-                // width="250"
-                // height="200"
                 alt="Screenshot (laptop version) of the patchboard project with 4 sticky notes showing to do lists and an image carousel (image that rotates on click)."
               />
-              <h4 class="text-lg pb-2">Description:</h4>
+              <h4 class="text-lg font-semibold py-3">Description:</h4>
               <p class=" text-base">
                 Our first React project in a team of 4, done over 5 hours.  It is a website that allows you to write to do lists and store pictures on your screen. My main contribution was styling the components using vanilla CSS (which goes through multiple themes on clicking the background).
               </p>
-              <h4 class="text-lg py-2">Tech Used:</h4>
+              <h4 class="text-lg font-semibold py-3">Tech Used:</h4>
               <div class="flex flex-row flex-wrap justify-center gap-2">
                 <Tech>React</Tech>
                 <Tech>CSS</Tech>
