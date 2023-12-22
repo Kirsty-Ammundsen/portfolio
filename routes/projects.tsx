@@ -7,15 +7,21 @@ export default function Projects() {
       <Hamburger />
       <div class="flex justify-between">
         <div class="flex flex-col items-center justify-center">
-          <section class="bg-[#f2f2f2] text-2xl py-6 px-4 rounded-lg opacity-60 ml-20 mr-28 h-5/6 w-96 my-20 overflow-y-scroll">
-            <h3>Task Master</h3>
-            {/* img */}
-            <h4>Tech Used</h4>
-            <div class="flex flex-row justify-center gap-2">
-              <Tech>TypeScript</Tech>
-              <Tech>Tailwind CSS</Tech>
-            </div>
-          </section>
+          <main class="bg-[#f2f2f2] text-2xl py-6 px-4 rounded-lg opacity-60 ml-20 mr-28 h-5/6 my-20 overflow-y-scroll">
+            <section>
+              <h3 class="text-xl font-bold">Task Master</h3>
+              {/* img */}
+              <h4 class="text-lg pb-2">Description:</h4>
+              <p class=" text-base">A mobile app that allows physios to assign tasks to their clients and track their progress as they are completed.  I created this app in a group of 4 people over 7 days.  My main contribution was doing the CSS (the layouts, components, navigation bar, and login page) and creating the stats page from the database queries, API calls, to implementing chartJS to make the graphs.</p>
+              <h4 class="text-lg py-2">Tech Used:</h4>
+              <div class="flex flex-row flex-wrap justify-center gap-2">
+                <Tech>TypeScript</Tech>
+                <Tech>Tailwind CSS</Tech>
+                <Tech>React</Tech>
+                <Tech>Knex</Tech>
+              </div>
+            </section>
+          </main>
         </div>
         <div class="float-right mt-10 h-screen relative flex flex-col items-end justify-between">
           <h1 class="text-4xl pt-4 pr-4">my projects</h1>
