@@ -14,7 +14,7 @@ export default function Home() {
           alt="Black and white pohutukawa tree"
         /> */}
         <h2 class="bg-white hidden lg:block text-4xl py-12 px-6
-        rounded-lg opacity-60 ml-20 mr-28 font-cursive">'<strong>Welcome</strong> to my homepage - here you can find out more about me, see my projects, and get in contact'</h2>
+        rounded-lg opacity-60 ml-16 mr-28 font-cursive">'<strong>Welcome</strong> to my homepage - here you can find out more about me, see my projects, and get in contact'</h2>
       </div>
       <div class="float-right mt-10 h-screen relative flex flex-col items-end justify-between">
         <h1 class="text-4xl pt-4 pr-4">my portfolio</h1>
