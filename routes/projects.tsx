@@ -61,7 +61,7 @@ export default function Projects() {
             kirsty <br /> ammundsen
           </h2>
           <img
-            class="hidden md:inline my-6 rounded-md"
+            class="md:w-60 hidden md:inline my-6 rounded-md"
             src="/KirstyPortfolio.jpg"
             alt="Black and white portrait of Kirsty looking over her shoulder smiling"
           />

@@ -17,11 +17,11 @@ export default function About() {
       </div>
       <div class="md:mt-10 relative flex flex-col items-end md:justify-between md:float-right md:h-screen">
         <h1 class="text-3xl md:text-4xl md:pt-4 pr-4">about me</h1>
-        <h2 class="text-6xl md:text-8xl py-4 pr-4 text-right font-bold">
+        <h2 class="text-6xl md:text-8xl pb-4 pr-4 text-right font-bold">
           kirsty <br /> ammundsen
         </h2>
         <img
-          class="hidden md:inline my-6 rounded-md"
+          class="hidden md:inline my-6 rounded-md w-60"
           src="/KirstyPortfolio.jpg"
           alt="Black and white portrait of Kirsty looking over her shoulder smiling"
         />
