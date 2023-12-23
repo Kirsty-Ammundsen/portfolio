@@ -10,7 +10,7 @@ export default function Home() {
         lg:ml-16 lg:mr-28">'<strong>Welcome</strong> to my homepage - here you can find out more about me, see my projects, and get in contact.'</h2>
       </div>
       <div class="md:mt-10 relative flex flex-col items-end md:justify-between md:float-right md:h-screen">
-        <h1 class="text-3xl md:text-4xl md:pt-4 pr-4">my portfolio</h1>
+        <h1 class="text-3xl pt-2 pr-4 md:text-4xl md:pt-4">my portfolio</h1>
         <h2 class="text-6xl md:text-8xl pb-4 pr-4 text-right font-bold">
           kirsty <br /> ammundsen
         </h2>
