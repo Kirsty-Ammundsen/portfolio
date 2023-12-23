@@ -15,7 +15,7 @@ export default function Home() {
           kirsty <br /> ammundsen
         </h2>
         <img
-          class="mt-8 md:my-6 rounded-md w-56 md:w-60"
+          class="mt-8 md:my-6 rounded-md w-40 sm:w-56 md:w-60"
           src="/KirstyPortfolio.jpg"
           alt="Black and white portrait of Kirsty looking over her shoulder smiling"
         />
