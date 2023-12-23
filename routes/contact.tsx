@@ -6,7 +6,7 @@ export default function Contact() {
       <Hamburger />
       <div class="flex flex-col-reverse md:flex-row md:justify-between">
         <div class="flex items-center justify-center ">
-          <p class="bg-offWhite rounded-lg text-xl p-4 py-6 md:text-2xl md:py-12 md:px-6 md:ml-20 ">Resume - <a class="hover:text-green-800 font-bold" href="https://docs.google.com/document/d/1E1kWHfyMwnAf44LNHI8WtqTw7mKqbCDaPjlws0O73aA/export?format=pdf">download my resume</a>
+          <p class="bg-offWhite rounded-lg text-xl py-4 px-8 m-4 mt-4 md:text-2xl md:py-12 md:px-6 md:ml-20 ">Resume - <a class="hover:text-green-800 font-bold" href="https://docs.google.com/document/d/1E1kWHfyMwnAf44LNHI8WtqTw7mKqbCDaPjlws0O73aA/export?format=pdf">download my resume</a>
           <br/>
           <br/>
           LinkedIn - <a class="hover:text-green-800 font-bold" href="https://www.linkedin.com/in/kirsty-ammundsen">view my profile</a>
