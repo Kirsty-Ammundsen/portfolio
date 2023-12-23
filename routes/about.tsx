@@ -6,7 +6,7 @@ export default function About() {
       <Hamburger />
       <div class="flex flex-col-reverse md:flex-row md:justify-between">
       <div class="flex items-center justify-center">
-        <div class="bg-lightGray text-lg p-2 m-4 mt-4 md:text-xl md:py-6 md:px-4
+        <div class="bg-offWhite text-lg p-2 m-4 mt-4 md:text-xl md:py-6 md:px-4
         rounded-lg text-darkGray md:ml-20 md:mr-28">
           <p class="py-2">'Hello, my name is Kirsty - I'm a tech person with a background in healthcare.</p>
           <p class="py-2">It would be ideal to work in a job where I could meld the two together, but as I'm only at the beginning of my tech journey, I'm still open-minded about all the possibilities available to me.  I want to learn, grow, and discover where I fit in the tech space.  As long as it involves working with people and life-long learning, I think it will be fun!</p>
@@ -21,7 +21,7 @@ export default function About() {
           kirsty <br /> ammundsen
         </h2>
         <img
-          class="w-56 hidden md:inline my-6 rounded-md"
+          class="hidden md:inline my-6 rounded-md"
           src="/KirstyPortfolio.jpg"
           alt="Black and white portrait of Kirsty looking over her shoulder smiling"
         />

@@ -3,11 +3,11 @@ import Tech from "../components/Tech.tsx";
 
 export default function Projects() {
   return (
-    <div class="h-screen bg-primary overflow-hidden">
+    <div class="h-screen bg-primary md:overflow-hidden">
       <Hamburger />
-      <div class="flex justify-between">
-        <div class="flex flex-col items-center justify-center">
-          <main class="bg-offWhite text-2xl py-2 px-4 rounded-lg ml-20 mr-28 h-[80vh] my-20 overflow-y-scroll">
+      <div class="flex flex-col-reverse md:flex-row md:justify-between">
+      <div class="flex items-center justify-center">
+          <main class="bg-offWhite text-2xl py-2 px-4 m-4 mt-4 rounded-lg md:ml-20 md:mr-28 h-[80vh] md:my-20 overflow-y-scroll">
             <section class="py-7">
               <h3 class="text-3xl font-bold">Task Master</h3>
               <img
@@ -55,16 +55,14 @@ export default function Projects() {
             </section>
           </main>
         </div>
-        <div class="float-right mt-10 h-screen relative flex flex-col items-end justify-between">
-          <h1 class="text-4xl pt-4 pr-4">my projects</h1>
-          <h2 class="text-8xl pb-4 pr-4 text-right font-bold">
+        <div class="md:mt-10 relative flex flex-col items-end md:justify-between md:float-right md:h-screen">
+          <h1 class="text-3xl md:text-4xl md:pt-4 pr-4">my projects</h1>
+          <h2 class="text-6xl md:text-8xl pb-4 pr-4 text-right font-bold">
             kirsty <br /> ammundsen
           </h2>
           <img
-            class="my-6 rounded-md"
+            class="hidden md:inline my-6 rounded-md"
             src="/KirstyPortfolio.jpg"
-            width="250"
-            height="200"
             alt="Black and white portrait of Kirsty looking over her shoulder smiling"
           />
         </div>
