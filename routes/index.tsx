@@ -2,23 +2,21 @@ import Hamburger from "../islands/Hamburger.tsx";
 
 export default function Home() {
   return (
-    <div class="h-screen bg-primary overflow-hidden">
+    <div class=" bg-primary h-screen lg:overflow-hidden">
       <Hamburger />
-      <div class="flex justify-between">
-      <div class="flex flex-col items-center justify-center">
-        <h2 class="bg-lightGray text-darkGray hidden lg:block text-4xl py-12 px-6
-        rounded-lg ml-16 mr-28">'<strong>Welcome</strong> to my homepage - here you can find out more about me, see my projects, and get in contact'</h2>
+      <div class="flex flex-col-reverse lg:flex-row lg:justify-between">
+      <div class="flex items-center justify-center">
+        <h2 class="bg-offWhite text-darkGray text-xl py-5 px-3 mt-14 mb-4 mx-3 rounded-lg w-full md:mr-36 lg:rounded-lg lg:block lg:text-4xl lg:py-12 lg:px-6
+        lg:ml-16 lg:mr-28">'<strong>Welcome</strong> to my homepage - here you can find out more about me, see my projects, and get in contact.'</h2>
       </div>
-      <div class="float-right mt-10 h-screen relative flex flex-col items-end justify-between">
-        <h1 class="text-4xl pt-4 pr-4">my portfolio</h1>
-        <h2 class="text-8xl pb-4 pr-4 text-right font-bold">
+      <div class="md:mt-10 relative flex flex-col items-end md:justify-between md:float-right md:h-screen">
+        <h1 class="text-3xl pt-2 pr-4 md:text-4xl md:pt-4">my portfolio</h1>
+        <h2 class="text-6xl md:text-8xl pb-4 pr-4 text-right font-bold">
           kirsty <br /> ammundsen
         </h2>
         <img
-          class="my-6 rounded-md"
+          class="mt-8 md:my-6 rounded-md w-56 md:w-60"
           src="/KirstyPortfolio.jpg"
-          width="250"
-          height="200"
           alt="Black and white portrait of Kirsty looking over her shoulder smiling"
         />
       </div>

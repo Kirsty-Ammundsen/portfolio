@@ -7,7 +7,7 @@ export default function Hamburger() {
 
   return (
     <div
-      className={`float-left pt-4 ${
+      className={`md:float-left pt-4 ${
         isOpen
           ? "bg-darkGray h-screen w-fit"
           : "bg-primary md:relative"

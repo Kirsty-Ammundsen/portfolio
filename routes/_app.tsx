@@ -11,7 +11,7 @@ export default function App({ Component }: PageProps) {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
         <link href="https://fonts.googleapis.com/css2?family=Diphylleia&display=swap" rel="stylesheet"/>
       </head>
-      <body>
+      <body class="bg-primary">
         <Component />
       </body>
     </html>
