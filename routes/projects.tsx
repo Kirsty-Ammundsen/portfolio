@@ -60,7 +60,7 @@ export default function Projects() {
             </section>
           </main>
         </div>
-        <div class="md:mt-10 relative flex flex-col items-end lg:justify-between lg:float-right lg:h-screen">
+        <div class="relative flex flex-col items-end lg:mt-10 lg:justify-between lg:float-right lg:h-screen">
           <h1 class="text-3xl pt-2 pr-4 md:text-4xl md:pt-4">my projects</h1>
           <h2 class="text-6xl md:text-7xl lg:text-8xl pb-4 md:pb-6 pr-4 text-right font-bold">
             kirsty <br /> ammundsen
