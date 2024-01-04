@@ -36,12 +36,14 @@ export default function About() {
           </div>
         </div>
         <div class="relative flex flex-col items-end lg:mt-10 lg:justify-between lg:float-right lg:h-screen">
-          <h1 class="text-3xl pt-2 pr-4 md:text-4xl md:pt-4">about me</h1>
+          <h1 class="text-3xl pt-2 pr-4 md:text-4xl md:pt-4">
+            about me
+          </h1>
           <h2 class="text-6xl md:text-7xl lg:text-8xl pb-4 md:pb-6 pr-4 text-right font-bold">
             kirsty <br /> ammundsen
           </h2>
           <img
-            class="hidden lg:inline my-6 rounded-md w-60"
+            class="hidden w-60 my-6 rounded-md lg:inline"
             src="/KirstyPortfolio.jpg"
             alt="Black and white portrait of Kirsty looking over her shoulder smiling"
           />

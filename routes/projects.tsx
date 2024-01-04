@@ -62,11 +62,11 @@ export default function Projects() {
         </div>
         <div class="md:mt-10 relative flex flex-col items-end lg:justify-between lg:float-right lg:h-screen">
           <h1 class="text-3xl pt-2 pr-4 md:text-4xl md:pt-4">my projects</h1>
-          <h2 class="text-6xl md:text-8xl pb-4 pr-4 text-right font-bold">
+          <h2 class="text-6xl md:text-7xl lg:text-8xl pb-4 md:pb-6 pr-4 text-right font-bold">
             kirsty <br /> ammundsen
           </h2>
           <img
-            class="md:w-60 hidden md:inline my-6 rounded-md"
+            class="hidden w-60 my-6 rounded-md lg:inline"
             src="/KirstyPortfolio.jpg"
             alt="Black and white portrait of Kirsty looking over her shoulder smiling"
           />
