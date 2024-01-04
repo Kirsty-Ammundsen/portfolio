@@ -6,7 +6,7 @@ export default function Home() {
       <Hamburger />
       <div class="flex flex-col-reverse lg:flex-row lg:justify-between">
         <div class="flex items-center justify-center">
-          <h2 class="bg-offWhite text-darkGray text-xl py-5 px-3 mt-14 mb-4 mx-3 rounded-lg w-full md:mr-36 lg:rounded-lg lg:block lg:text-4xl lg:py-12 lg:px-6
+          <h2 class="bg-offWhite text-darkGray text-xl py-5 px-3 mt-4 m-4 rounded-lg w-full md:mr-36 lg:rounded-lg lg:block lg:text-4xl lg:py-12 lg:px-6
         lg:ml-16 lg:mr-28">
             '<strong>Welcome</strong>{" "}
             to my homepage - here you can find out more about me, see my
