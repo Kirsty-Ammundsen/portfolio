@@ -7,7 +7,7 @@ export default function Projects() {
       <Hamburger />
       <div class="flex flex-col-reverse md:flex-row md:justify-between">
         <div class="flex items-center justify-center">
-          <main class="bg-offWhite text-darkGray text-2xl py-2 px-4 m-4 mt-4 rounded-lg h-[55vh] lg:ml-16 lg:mr-28 md:h-[80vh] lg:my-20 overflow-y-scroll">
+          <main class="bg-offWhite text-darkGray text-2xl py-2 px-4 m-4 mt-4 rounded-lg h-[50vh] lg:ml-16 lg:mr-28 md:h-[80vh] lg:my-20 overflow-y-scroll">
             <section class="py-7">
               <h3 class="text-3xl font-bold">Task Master</h3>
               <img
