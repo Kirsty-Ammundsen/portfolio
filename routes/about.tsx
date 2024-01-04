@@ -6,8 +6,8 @@ export default function About() {
       <Hamburger />
       <div class="flex flex-col-reverse lg:flex-row lg:justify-between">
         <div class="flex items-center justify-center">
-          <div class="bg-offWhite text-lg p-2 m-4 mt-4 h-[50vh] overflow-y-scroll md:h-[80vh] md:text-xl md:py-6 md:px-4
-        rounded-lg text-darkGray md:mr-24 md:ml-16">
+          <div class="bg-offWhite text-lg p-2 m-4 mt-4 lg:h-fit overflow-y-scroll md:text-xl md:py-6 md:px-4
+        rounded-lg text-darkGray lg:mr-24 lg:ml-16">
             <p class="py-2">
               'Hello, my name is Kirsty - I'm a tech person with a background in
               healthcare.
@@ -35,13 +35,13 @@ export default function About() {
             </p>
           </div>
         </div>
-        <div class="md:mt-10 relative flex flex-col items-end md:justify-between md:float-right md:h-screen">
+        <div class="relative flex flex-col items-end lg:mt-10 lg:justify-between lg:float-right lg:h-screen">
           <h1 class="text-3xl pt-2 pr-4 md:text-4xl md:pt-4">about me</h1>
-          <h2 class="text-6xl md:text-8xl pb-4 pr-4 text-right font-bold">
+          <h2 class="text-6xl md:text-7xl lg:text-8xl pb-4 md:pb-6 pr-4 text-right font-bold">
             kirsty <br /> ammundsen
           </h2>
           <img
-            class="hidden md:inline my-6 rounded-md w-60"
+            class="hidden lg:inline my-6 rounded-md w-60"
             src="/KirstyPortfolio.jpg"
             alt="Black and white portrait of Kirsty looking over her shoulder smiling"
           />
