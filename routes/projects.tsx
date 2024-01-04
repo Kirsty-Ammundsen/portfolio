@@ -6,8 +6,8 @@ export default function Projects() {
     <div class="h-screen bg-primary md:overflow-hidden">
       <Hamburger />
       <div class="flex flex-col-reverse md:flex-row md:justify-between">
-      <div class="flex items-center justify-center">
-          <main class="bg-offWhite text-darkGray text-2xl py-2 px-4 m-4 mt-4 rounded-lg h-[55vh] lg:ml-8 lg:mr-28 md:h-[80vh] lg:my-20 overflow-y-scroll">
+        <div class="flex items-center justify-center">
+          <main class="bg-offWhite text-darkGray text-2xl py-2 px-4 m-4 mt-4 rounded-lg h-[55vh] lg:ml-16 lg:mr-28 md:h-[80vh] lg:my-20 overflow-y-scroll">
             <section class="py-7">
               <h3 class="text-3xl font-bold">Task Master</h3>
               <img
@@ -20,10 +20,11 @@ export default function Projects() {
                 A mobile app that allows physios to assign tasks to their
                 clients and track their progress as they are completed. I
                 created this app in a group of 4 people over 7 days. My main
-                contributions were: coming up with the idea, acting as project manager to decide the basic functions and scope of the project, doing the CSS (the layouts, components,
-                navigation bar, and login page), and creating the stats page from
-                the database queries, API calls, to implementing chartJS to make
-                the graphs.
+                contributions were: coming up with the idea, acting as project
+                manager to decide the basic functions and scope of the project,
+                doing the CSS (the layouts, components, navigation bar, and
+                login page), and creating the stats page from the database
+                queries, API calls, to implementing chartJS to make the graphs.
               </p>
               <h4 class="text-lg font-semibold py-3">Tech Used:</h4>
               <div class="flex flex-row flex-wrap justify-center gap-2">
@@ -43,7 +44,11 @@ export default function Projects() {
               />
               <h4 class="text-lg font-semibold py-3">Description:</h4>
               <p class=" text-base">
-                Our first React project in a team of 4, done over 5 hours.  It is a website that allows you to write to do lists and store pictures on your screen. My main contribution was styling the components using vanilla CSS (which goes through multiple themes on clicking the background).
+                Our first React project in a team of 4, done over 5 hours. It is
+                a website that allows you to write to do lists and store
+                pictures on your screen. My main contribution was styling the
+                components using vanilla CSS (which goes through multiple themes
+                on clicking the background).
               </p>
               <h4 class="text-lg font-semibold py-3">Tech Used:</h4>
               <div class="flex flex-row flex-wrap justify-center gap-2">
