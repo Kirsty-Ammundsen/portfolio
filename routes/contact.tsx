@@ -12,6 +12,8 @@ export default function Contact() {
               <a
                 class="hover:text-green-800 font-bold inline"
                 href="https://docs.google.com/document/d/1E1kWHfyMwnAf44LNHI8WtqTw7mKqbCDaPjlws0O73aA/export?format=pdf"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 download my resume
               </a>
@@ -21,6 +23,8 @@ export default function Contact() {
               <a
                 class="hover:text-green-800 font-bold inline"
                 href="https://www.linkedin.com/in/kirsty-ammundsen"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 view my profile
               </a>
@@ -30,6 +34,8 @@ export default function Contact() {
               <a
                 class="hover:text-green-800 font-bold inline"
                 href="https://github.com/Kirsty-Ammundsen"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 see my code
               </a>
