@@ -6,9 +6,9 @@ export default function Contact() {
   return (
     <div class="h-screen bg-primary lg:overflow-hidden">
       <Hamburger />
-      <div class="flex flex-col-reverse lg:flex-row lg:justify-between">
+      <div class="flex flex-col-reverse md:flex-row md:justify-between">
         <div class="flex flex-col items-center justify-center">
-          <p class="bg-offWhite text-darkGray flex flex-col gap-2 rounded-lg text-xl py-4 px-3 m-4 mt-4 sm:px-6 md:mx-20 lg:text-2xl lg:mr-40 xl:py-12 xl:px-12  ">
+          <p class="bg-offWhite text-darkGray flex flex-col gap-2 md:gap-3 xl:gap-6 rounded-lg text-xl py-4 px-3 m-4 mt-4 sm:px-6 md:ml-16 md:mr-8 lg:text-2xl lg:mr-16 lg:ml-8 xl:mr-30 xl:py-12 xl:px-12  ">
             <span>
               Résumé{" "}
               <a
@@ -106,13 +106,15 @@ export default function Contact() {
             </span>
           </p>
         </div>
-        <div class="md:mt-10 relative flex flex-col items-end xl:justify-between xl:float-right xl:h-screen">
-          <h1 class="text-3xl pt-2 pr-4 lg:text-4xl md:pt-4">contact info</h1>
-          <h2 class="text-6xl xl:text-8xl pb-4 md:pb-6 pr-4 text-right font-bold">
+        <div class="lg:mt-10 relative flex flex-col items-end md:justify-between md:h-[95vh] lg:float-right lg:h-screen">
+          <h1 class="text-3xl pt-2 pr-4 md:pt-0 lg:text-4xl lg:pt-4">
+            contact info
+          </h1>
+          <h2 class="text-6xl lg:text-7xl xl:text-8xl pb-4 md:pb-28 lg:pb-20 xl:pb-10 pr-4 text-right font-bold">
             kirsty <br /> ammundsen
           </h2>
           <img
-            class="w-40 sm:w-52 md:w-56 lg:w-60 my-2 md:my-6 rounded-md"
+            class="w-40 sm:w-48 md:w-60 lg:w-60 my-2 md:my-6 rounded-md"
             src="/KirstyPortfolio.jpg"
             alt="Black and white portrait of Kirsty looking over her shoulder smiling"
           />

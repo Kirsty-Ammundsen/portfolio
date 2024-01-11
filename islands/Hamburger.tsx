@@ -9,7 +9,7 @@ export default function Hamburger() {
     <div
       className={`lg:float-left pt-4 ${
         isOpen
-          ? "bg-darkGray h-[20vh] md:h-screen w-screen md:w-fit mb-10"
+          ? "bg-darkGray h-[20vh] lg:h-screen w-screen lg:w-fit mb-10"
           : "bg-primary md:relative"
       }`}
     >
@@ -40,7 +40,7 @@ export default function Hamburger() {
       </button>
       <nav className={isOpen ? "float-right" : "hidden"}>
         <ul
-          className={"text-white text-xl md:text-4xl font-bold flex flex-wrap justify-around md:flex-col gap-6 pt-6 md:pt-12 px-6 md:px-16"}
+          className={"text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold flex flex-wrap justify-around lg:flex-col gap-6 pt-6 lg:pt-12 px-6 lg:px-16"}
           aria-expanded
         >
           <a href="/">
