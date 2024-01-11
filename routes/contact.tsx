@@ -1,12 +1,14 @@
 import Hamburger from "../islands/Hamburger.tsx";
 
 export default function Contact() {
+  // sm:bg-blue-300 md:bg-pink-500 lg:bg-green-400 xl:bg-yellow-300
+
   return (
     <div class="h-screen bg-primary lg:overflow-hidden">
       <Hamburger />
       <div class="flex flex-col-reverse lg:flex-row lg:justify-between">
-        <div class="flex items-center justify-center ">
-          <p class="bg-offWhite text-darkGray flex flex-col gap-2 rounded-lg text-xl py-4 px-8 m-4 mt-4 md:mr-40 md:text-2xl md:py-12 md:px-12 md:mx-20 ">
+        <div class="flex flex-col items-center justify-center">
+          <p class="bg-offWhite text-darkGray flex flex-col gap-2 rounded-lg text-xl py-4 px-8 m-4 mt-4 md:mr-40 md:text-2xl lg:py-12 lg:px-12 md:mx-20 ">
             <span>
               Résumé{" "}
               <a
@@ -104,13 +106,13 @@ export default function Contact() {
             </span>
           </p>
         </div>
-        <div class="md:mt-10 relative flex flex-col items-end md:justify-between md:float-right md:h-screen">
-          <h1 class="text-3xl pt-2 pr-4 md:text-4xl md:pt-4">contact info</h1>
-          <h2 class="text-6xl md:text-8xl pb-4 md:pb-6 pr-4 text-right font-bold">
+        <div class="md:mt-10 relative flex flex-col items-end xl:justify-between xl:float-right xl:h-screen">
+          <h1 class="text-3xl pt-2 pr-4 lg:text-4xl md:pt-4">contact info</h1>
+          <h2 class="text-6xl xl:text-8xl pb-4 md:pb-6 pr-4 text-right font-bold">
             kirsty <br /> ammundsen
           </h2>
           <img
-            class="w-40 sm:w-56 md:w-60 my-2 md:my-6 rounded-md"
+            class="w-40 sm:w-52 md:w-56 lg:w-60 my-2 md:my-6 rounded-md"
             src="/KirstyPortfolio.jpg"
             alt="Black and white portrait of Kirsty looking over her shoulder smiling"
           />
