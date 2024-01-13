@@ -8,7 +8,7 @@ export default function Contact() {
       <Hamburger />
       <div class="flex flex-col-reverse md:flex-row md:justify-between">
         <div class="flex flex-col items-center justify-center">
-          <p class="bg-offWhite text-darkGray flex flex-col gap-2 md:gap-3 xl:gap-6 rounded-lg text-xl py-4 px-3 m-4 mt-4 sm:px-6 md:ml-16 md:mr-8 lg:text-2xl lg:mr-16 lg:ml-8 xl:mr-30 xl:py-12 xl:px-12  ">
+          <p class="bg-offWhite text-darkGray flex flex-col gap-2 md:gap-3 xl:gap-6 rounded-lg text-xl py-4 px-3 m-4 mt-4 sm:px-6 md:ml-16 md:mr-8 lg:text-2xl lg:mr-16 lg:ml-8 xl:mr-30 xl:py-12 xl:px-12 mb-60">
             <span>
               Résumé{" "}
               <a
