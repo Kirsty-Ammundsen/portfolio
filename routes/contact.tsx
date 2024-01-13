@@ -106,13 +106,15 @@ export default function Contact() {
             </span>
           </p>
         </div>
-        <div class="lg:mt-10 relative flex flex-col items-end md:justify-between md:h-[95vh] lg:float-right lg:h-screen">
-          <h1 class="text-3xl pt-2 pr-4 md:pt-0 lg:text-4xl lg:pt-4">
-            contact info
-          </h1>
-          <h2 class="text-6xl lg:text-7xl xl:text-8xl pb-4 md:pb-28 lg:pb-20 xl:pb-10 pr-4 text-right font-bold">
-            kirsty <br /> ammundsen
-          </h2>
+        <div class="lg:mt-10 relative flex flex-col items-end md:h-[95vh] lg:float-right lg:h-screen">
+          <div>
+            <h1 class="text-3xl pt-2 pr-4 md:pt-0 lg:text-4xl lg:pt-4 text-end">
+              contact info
+            </h1>
+            <h2 class="text-6xl py-2 lg:text-7xl xl:text-8xl md:pb-28 lg:pb-20 xl:pb-10 pr-4 text-right font-bold">
+              kirsty <br /> ammundsen
+            </h2>
+          </div>
           <img
             class="w-40 sm:w-48 md:w-60 lg:w-60 my-2 md:my-6 rounded-md"
             src="/KirstyPortfolio.jpg"
