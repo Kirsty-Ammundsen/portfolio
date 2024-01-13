@@ -9,7 +9,7 @@ export default function Hamburger() {
     <div
       className={`lg:float-left pt-4 ${
         isOpen
-          ? "bg-darkGray h-[20vh] lg:h-screen w-screen lg:w-fit mb-10"
+          ? "bg-darkGray h-36 mb-10 lg:h-screen w-screen lg:w-fit"
           : "bg-primary md:relative"
       }`}
     >
