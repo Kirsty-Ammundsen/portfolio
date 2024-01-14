@@ -4,7 +4,7 @@ import Hamburger from "../islands/Hamburger.tsx";
 
 export default function About() {
   return (
-    <div class="h-screen bg-primary lg:overflow-hidden  sm:bg-blue-300 md:bg-pink-500 lg:bg-green-400 xl:bg-yellow-300">
+    <div class="h-screen bg-primary lg:overflow-hidden">
       <Hamburger />
       <div class="flex flex-col-reverse lg:flex-row lg:justify-between">
         <div class="flex items-center justify-center">
@@ -36,7 +36,7 @@ export default function About() {
             </p>
           </div>
         </div>
-        <div class="relative flex flex-col items-end lg:mt-10 lg:justify-between lg:float-right lg:h-screen">
+        <div class="relative flex flex-col items-end lg:mt-10 lg:float-right lg:h-screen">
           <div>
             <h1 class="text-3xl pt-2 pr-4 md:pt-0 lg:text-4xl lg:pt-4 text-end">
               about me
