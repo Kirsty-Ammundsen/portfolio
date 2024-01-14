@@ -8,7 +8,7 @@ export default function About() {
       <Hamburger />
       <div class="flex flex-col-reverse lg:flex-row lg:justify-between">
         <div class="flex items-center justify-center">
-          <div class="bg-offWhite text-darkGray text-lg overflow-y-scroll rounded-lg p-2 m-4 mt-4 h-[50vh] sm:h-fit md:text-xl md:p-4 lg:h-[60vh] xl:h-fit xl:mr-24 xl:ml-16">
+          <div class="bg-offWhite text-darkGray text-lg overflow-y-scroll rounded-lg p-2 m-4 mt-4 h-[50vh] sm:h-fit md:text-xl md:p-4 lg:h-[60vh] lg:ml-0 lg:mr-16 xl:h-fit xl:mr-24 xl:ml-16">
             <p class="py-2">
               'Hello, my name is Kirsty - I'm a tech person with a background in
               healthcare.
