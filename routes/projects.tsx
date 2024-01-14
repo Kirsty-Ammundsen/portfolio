@@ -2,12 +2,14 @@ import Hamburger from "../islands/Hamburger.tsx";
 import Tech from "../components/Tech.tsx";
 
 export default function Projects() {
+  // sm:bg-blue-300 md:bg-pink-500 lg:bg-green-400 xl:bg-yellow-300
+
   return (
-    <div class="h-screen bg-primary lg:overflow-hidden">
+    <div class="h-screen bg-primary xl:overflow-hidden sm:bg-blue-300 md:bg-pink-500 lg:bg-green-400 xl:bg-yellow-300">
       <Hamburger />
-      <div class="flex flex-col-reverse lg:flex-row lg:justify-between">
+      <div class="flex flex-col-reverse xl:flex-row xl:justify-between">
         <div class="flex items-center justify-center">
-          <main class="bg-offWhite text-darkGray py-2 px-4 m-4 mt-4 rounded-lg h-[50vh] lg:ml-16 lg:mr-28 md:h-[80vh] lg:my-20 overflow-y-scroll">
+          <main class="bg-offWhite text-darkGray py-2 px-4 m-4 mt-4 rounded-lg overflow-y-scroll h-[50vh] md:h-[80vh] lg:ml-0 xl:ml-16 xl:mr-18 xl:my-20">
             <section class="py-7">
               <h3 class="text-3xl font-bold">Task Master</h3>
               <img
@@ -60,13 +62,17 @@ export default function Projects() {
             </section>
           </main>
         </div>
-        <div class="relative flex flex-col items-end lg:mt-10 lg:justify-between lg:float-right lg:h-screen">
-          <h1 class="text-3xl pt-2 pr-4 md:text-4xl md:pt-4">my projects</h1>
-          <h2 class="text-6xl md:text-7xl lg:text-8xl pb-4 md:pb-6 pr-4 text-right font-bold">
-            kirsty <br /> ammundsen
-          </h2>
+        <div class="relative flex flex-col items-end lg:mt-10 xl:float-right xl:h-screen">
+          <div>
+            <h1 class="text-3xl pt-2 pr-4 md:pt-0 lg:text-4xl lg:pt-4 text-end">
+              my projects
+            </h1>
+            <h2 class="text-6xl py-2 lg:text-7xl sm:pb-[6vh] lg:pb-20 xl:pb-10 pr-4 text-right font-bold">
+              kirsty <br /> ammundsen
+            </h2>
+          </div>
           <img
-            class="hidden w-60 my-6 rounded-md lg:inline"
+            class="hidden w-60 my-6 rounded-md xl:inline"
             src="/KirstyPortfolio.jpg"
             alt="Black and white portrait of Kirsty looking over her shoulder smiling"
           />

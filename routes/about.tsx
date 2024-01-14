@@ -1,7 +1,5 @@
 import Hamburger from "../islands/Hamburger.tsx";
 
-// sm:bg-blue-300 md:bg-pink-500 lg:bg-green-400 xl:bg-yellow-300
-
 export default function About() {
   return (
     <div class="h-screen bg-primary lg:overflow-hidden">

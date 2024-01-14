@@ -14,7 +14,7 @@ export default function Hamburger() {
       }`}
     >
       <button
-        className="ml-4 mr-20 flex flex-col h-12 w-12 border-2 border-black rounded justify-center items-center group"
+        className="ml-4 flex flex-col h-12 w-12 border-2 border-black rounded justify-center items-center group"
         aria-label="hamburger menu"
         onClick={() => setIsOpen(!isOpen)}
       >
