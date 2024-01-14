@@ -12,7 +12,7 @@ export default function Home() {
             projects, and get in contact.'
           </h2>
         </div>
-        <div class="lg:mt-10 relative flex flex-col items-end md:h-[95vh] lg:float-right lg:h-screen">
+        <div class="relative flex flex-col items-end md:h-[95vh] lg:mt-10 lg:float-right lg:h-screen">
           <div>
             <h1 class="text-3xl pt-2 pr-4 md:pt-0 lg:text-4xl lg:pt-4 text-end">
               my portfolio
