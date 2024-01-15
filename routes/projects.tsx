@@ -60,6 +60,29 @@ export default function Projects() {
                 <Tech>HTML</Tech>
               </div>
             </section>
+            <section class="py-7">
+              <h3 class="text-3xl font-bold">My Portfolio</h3>
+              <div class="flex justify-center">
+                <img
+                  class="my-8 rounded-md self-center"
+                  src="/myportfolio.png"
+                  alt="Screenshot of my welcome page for this portfolio website."
+                />
+              </div>
+              <h4 class="text-lg font-semibold py-3">Description:</h4>
+              <p class=" text-base">
+                My first solo project post-bootcamp has been this portfolio to
+                display other projects I have done and will do. I have used a
+                slightly different tech stack so that I can learn something new.
+              </p>
+              <h4 class="text-lg font-semibold py-3">Tech Used:</h4>
+              <div class="flex flex-row flex-wrap justify-center gap-2">
+                <Tech>Preact</Tech>
+                <Tech>Tailwind CSS</Tech>
+                <Tech>Deno</Tech>
+                <Tech>Fresh</Tech>
+              </div>
+            </section>
           </main>
         </div>
         <div class="relative flex flex-col items-end lg:mt-10 xl:float-right xl:h-screen">
