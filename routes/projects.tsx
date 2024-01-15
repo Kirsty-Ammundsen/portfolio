@@ -39,11 +39,13 @@ export default function Projects() {
             </section>
             <section class="py-7">
               <h3 class="text-3xl font-bold">PAtCHboaRD</h3>
-              <img
-                class="my-8 rounded-md"
-                src="/patchboard.png"
-                alt="Screenshot (laptop version) of the patchboard project with 4 sticky notes showing to do lists and an image carousel (image that rotates on click)."
-              />
+              <div class="flex justify-center">
+                <img
+                  class="my-8 rounded-md self-center"
+                  src="/patchboard.png"
+                  alt="Screenshot (laptop version) of the patchboard project with 4 sticky notes showing to do lists and an image carousel (image that rotates on click)."
+                />
+              </div>
               <h4 class="text-lg font-semibold py-3">Description:</h4>
               <p class=" text-base">
                 Our first React project in a team of 4, done over 5 hours. It is
