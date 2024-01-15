@@ -9,7 +9,7 @@ export default function Projects() {
       <Hamburger />
       <div class="flex flex-col-reverse xl:flex-row xl:justify-between">
         <div class="flex items-center justify-center">
-          <main class="bg-offWhite text-darkGray py-2 px-4 m-4 mt-4 rounded-lg overflow-y-scroll h-[50vh] md:h-[80vh] lg:ml-0 xl:ml-16 xl:mr-18 xl:my-20">
+          <main class="bg-offWhite text-darkGray py-2 px-4 m-4 mt-4 rounded-lg overflow-y-scroll h-[50vh] md:h-[58vh] lg:ml-3 lg:mr-14 xl:h-[70vh] xl:ml-8 xl:mr-12">
             <section class="py-7">
               <h3 class="text-3xl font-bold">Task Master</h3>
               <img
@@ -67,7 +67,7 @@ export default function Projects() {
             <h1 class="text-3xl pt-2 pr-4 md:pt-0 lg:text-4xl lg:pt-4 text-end">
               my projects
             </h1>
-            <h2 class="text-6xl py-2 lg:text-7xl sm:pb-[6vh] lg:pb-20 xl:pb-10 pr-4 text-right font-bold">
+            <h2 class="text-6xl py-2 lg:text-7xl sm:pb-[5vh] lg:pb-[3vh] xl:pb-10 pr-4 text-right font-bold">
               kirsty <br /> ammundsen
             </h2>
           </div>
