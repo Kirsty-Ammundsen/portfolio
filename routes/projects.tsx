@@ -2,10 +2,8 @@ import Hamburger from "../islands/Hamburger.tsx";
 import Tech from "../components/Tech.tsx";
 
 export default function Projects() {
-  // sm:bg-blue-300 md:bg-pink-500 lg:bg-green-400 xl:bg-yellow-300
-
   return (
-    <div class="h-screen bg-primary xl:overflow-hidden sm:bg-blue-300 md:bg-pink-500 lg:bg-green-400 xl:bg-yellow-300">
+    <div class="h-screen bg-primary xl:overflow-hidden">
       <Hamburger />
       <div class="flex flex-col-reverse xl:flex-row xl:justify-between">
         <div class="flex items-center justify-center">
