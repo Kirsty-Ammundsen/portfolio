@@ -87,10 +87,10 @@ export default function Projects() {
         </div>
         <div class="relative flex flex-col items-end lg:mt-10 xl:float-right xl:h-screen">
           <div>
-            <h1 class="text-3xl pt-2 pr-4 md:pt-0 lg:text-4xl lg:pt-4 text-end">
+            <h1 class="text-2xl xs:text-3xl pt-2 pr-4 md:pt-0 lg:text-4xl lg:pt-4 text-end">
               my projects
             </h1>
-            <h2 class="text-6xl py-2 lg:text-7xl sm:pb-[5vh] lg:pb-[3vh] xl:pb-10 pr-4 text-right font-bold">
+            <h2 class="text-2.5xl xs:text-6xl py-0 xs:py-2 lg:text-7xl sm:pb-[5vh] lg:pb-[3vh] xl:pb-10 pr-4 text-right font-bold">
               kirsty <br /> ammundsen
             </h2>
           </div>
