@@ -17,7 +17,7 @@ export default function Home() {
             <h1 class="text-2xl xs:text-3xl pt-2 pr-4 md:pt-0 lg:text-4xl lg:pt-4 text-end">
               my portfolio
             </h1>
-            <h2 class="text-2.5xl xs:text-6xl py-2 lg:text-7xl xl:text-8xl md:pb-28 lg:pb-20 xl:pb-10 pr-4 text-right font-bold">
+            <h2 class="text-2.5xl xs:text-6xl py-0 xs:py-2 lg:text-7xl xl:text-8xl md:pb-28 lg:pb-20 xl:pb-10 pr-4 text-right font-bold">
               kirsty <br /> ammundsen
             </h2>
           </div>

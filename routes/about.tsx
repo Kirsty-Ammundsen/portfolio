@@ -6,7 +6,7 @@ export default function About() {
       <Hamburger />
       <div class="flex flex-col-reverse lg:flex-row lg:justify-between">
         <div class="flex items-center justify-center">
-          <div class="bg-offWhite text-darkGray text-lg overflow-y-scroll rounded-lg p-2 m-4 mt-4 h-[50vh] sm:h-fit md:text-xl md:p-4 lg:h-[60vh] lg:ml-6 lg:mr-8 xl:h-fit xl:mr-12 xl:ml-10">
+          <div class="bg-offWhite text-darkGray text-md xs:text-lg overflow-y-scroll rounded-lg p-2 m-4 mt-4 h-[50vh] sm:h-fit md:text-xl md:p-4 lg:h-[60vh] lg:ml-6 lg:mr-8 xl:h-fit xl:mr-12 xl:ml-10">
             <p class="py-2">
               'Hello, my name is Kirsty - I'm a tech person with a background in
               healthcare.
@@ -36,10 +36,10 @@ export default function About() {
         </div>
         <div class="relative flex flex-col items-end lg:mt-10 lg:float-right lg:h-screen">
           <div>
-            <h1 class="text-3xl pt-2 pr-4 md:pt-0 lg:text-4xl lg:pt-4 text-end">
+            <h1 class="text-2xl xs:text-3xl pt-2 pr-4 md:pt-0 lg:text-4xl lg:pt-4 text-end">
               about me
             </h1>
-            <h2 class="text-6xl py-2 lg:text-7xl xl:text-8xl sm:pb-[6vh] lg:pb-20 xl:pb-10 pr-4 text-right font-bold">
+            <h2 class="text-2.5xl xs:text-6xl py-0 xs:py-2 lg:text-7xl xl:text-8xl sm:pb-[6vh] lg:pb-20 xl:pb-10 pr-4 text-right font-bold">
               kirsty <br /> ammundsen
             </h2>
           </div>
