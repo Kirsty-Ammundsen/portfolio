@@ -9,12 +9,12 @@ export default function Hamburger() {
     <div
       className={`lg:float-left pt-4 ${
         isOpen
-          ? "bg-darkGray h-36 mb-10 lg:h-screen w-screen lg:w-fit"
+          ? "bg-darkGray h-32 xs:h-36 mb-10 lg:h-screen w-screen lg:w-fit"
           : "bg-primary md:relative"
       }`}
     >
       <button
-        className="ml-4 flex flex-col h-12 w-12 border-2 border-black rounded justify-center items-center group"
+        className="ml-4 flex flex-col h-10 w-10 xs:h-12 xs:w-12 border-2 border-black rounded justify-center items-center group"
         aria-label="hamburger menu"
         onClick={() => setIsOpen(!isOpen)}
       >
@@ -40,7 +40,7 @@ export default function Hamburger() {
       </button>
       <nav className={isOpen ? "float-right" : "hidden"}>
         <ul
-          className={"text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold flex flex-wrap justify-around lg:flex-col gap-6 pt-6 lg:pt-12 px-6 lg:px-16"}
+          className={"text-white text-sm xs:text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold flex flex-wrap justify-around lg:flex-col gap-3 xs:gap-6 pt-6 lg:pt-12 px-6 lg:px-16"}
           aria-expanded
         >
           <a href="/">
