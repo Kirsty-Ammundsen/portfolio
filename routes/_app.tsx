@@ -31,6 +31,7 @@ export default function App({ Component }: PageProps) {
           href="/favicon-16x16.png"
         />
         <link rel="manifest" href="/site.webmanifest" />
+        <meta property="og:image" content="/myportfolio.png" />
       </head>
       <body class="bg-primary">
         <Component />
