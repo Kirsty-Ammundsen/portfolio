@@ -32,6 +32,10 @@ export default function App({ Component }: PageProps) {
         />
         <link rel="manifest" href="/site.webmanifest" />
         <meta property="og:image" content="/myportfolio.png" />
+        <meta
+          property="og:description"
+          content="Find out more about me, see my projects, and get in contact."
+        />
       </head>
       <body class="bg-primary">
         <Component />
