@@ -43,10 +43,10 @@ export default function Hamburger() {
           className={"text-white text-sm xs:text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold flex flex-wrap justify-around lg:flex-col gap-3 xs:gap-6 pt-6 lg:pt-12 px-6 lg:px-16"}
           aria-expanded
         >
-          <a href="/">
+          <a href="/home">
             <li className={"hover:text-black"}>home</li>
           </a>
-          <a href="/about">
+          <a href="/">
             <li className={"hover:text-black"}>about</li>
           </a>
           <a href="/projects">

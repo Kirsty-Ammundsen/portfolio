@@ -4,9 +4,9 @@
 
 import * as $_404 from "./routes/_404.tsx";
 import * as $_app from "./routes/_app.tsx";
-import * as $about from "./routes/about.tsx";
+import * as $about from "./routes/index.tsx";
 import * as $contact from "./routes/contact.tsx";
-import * as $index from "./routes/index.tsx";
+import * as $index from "./routes/home.tsx";
 import * as $projects from "./routes/projects.tsx";
 import * as $Hamburger from "./islands/Hamburger.tsx";
 import { type Manifest } from "$fresh/server.ts";
