@@ -1,28 +1,50 @@
 import Hamburger from "../islands/Hamburger.tsx";
 
-export default function Home() {
+export default function About() {
   return (
-    <div class=" bg-primary h-screen lg:overflow-hidden">
+    <div class="h-screen bg-primary lg:overflow-hidden">
       <Hamburger />
-      <div class="flex flex-col-reverse md:flex-row md:justify-between">
+      <div class="flex flex-col-reverse lg:flex-row lg:justify-between">
         <div class="flex items-center justify-center">
-          <h2 class="bg-offWhite text-darkGray text-md xs:text-xl py-2 xs:py-5 px-3 mt-2 xs:mt-4 m-4 rounded-lg w-full md:mt-0 md:ml-16 md:mr-8 lg:rounded-lg lg:block lg:py-12 lg:px-6 lg:text-2xl lg:mr-16 lg:ml-8 xl:text-4xl xl:mr-30 xl:py-12 xl:px-12">
-            '<strong>Welcome</strong>{" "}
-            to my homepage - here you can find out more about me, see my
-            projects, and get in contact.'
-          </h2>
+          <div class="bg-offWhite text-darkGray text-md xs:text-lg overflow-y-scroll rounded-lg p-2 m-4 mt-4 h-[50vh] sm:h-fit md:text-xl md:p-4 lg:h-[60vh] lg:ml-6 lg:mr-8 xl:h-fit xl:mr-12 xl:ml-10">
+            <p class="py-2">
+              'Hello, my name is Kirsty - I'm a tech person with a background in
+              healthcare.
+            </p>
+            <p class="py-2">
+              It would be ideal to work in a job where I could meld the two
+              together, but as I'm only at the beginning of my tech journey, I'm
+              still open-minded about all the possibilities available to me. I
+              want to learn, grow, and discover where I fit in the tech space.
+              As long as it involves working with people and life-long learning,
+              I think it will be fun!
+            </p>
+            <p class="py-2">
+              Apart from that, I love solving escape rooms, eating delicious
+              food, and travelling the world.'
+            </p>
+            <p class="py-4">
+              To find out more, please{" "}
+              <a
+                class="hover:text-green-800 font-bold"
+                href="https://docs.google.com/document/d/1E1kWHfyMwnAf44LNHI8WtqTw7mKqbCDaPjlws0O73aA/export?format=pdf"
+              >
+                download my resume.
+              </a>
+            </p>
+          </div>
         </div>
-        <div class="relative flex flex-col items-end md:h-[95vh] lg:mt-10 lg:float-right lg:h-screen">
+        <div class="relative flex flex-col items-end lg:mt-10 lg:float-right lg:h-screen">
           <div>
             <h1 class="text-2xl xs:text-3xl pt-2 pr-4 md:pt-0 lg:text-4xl lg:pt-4 text-end">
-              my portfolio
+              about me
             </h1>
-            <h2 class="text-2.5xl xs:text-6xl py-0 xs:py-2 lg:text-7xl xl:text-8xl md:pb-28 lg:pb-20 xl:pb-10 pr-4 text-right font-bold">
+            <h2 class="text-2.5xl xs:text-6xl py-0 xs:py-2 lg:text-7xl xl:text-8xl sm:pb-[6vh] lg:pb-20 xl:pb-10 pr-4 text-right font-bold">
               kirsty <br /> ammundsen
             </h2>
           </div>
           <img
-            class="w-32 xs:w-40 sm:w-48 md:w-60 lg:w-60 my-2 md:my-6 rounded-md"
+            class="hidden w-60 my-6 rounded-md lg:inline"
             src="/KirstyPortfolio.jpg"
             alt="Black and white portrait of Kirsty looking over her shoulder smiling"
           />
