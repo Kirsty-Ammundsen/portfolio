@@ -13,7 +13,7 @@ export default function Contact() {
               Résumé{" "}
               <a
                 class="hover:text-green-800 font-bold inline"
-                href="https://drive.google.com/file/d/1QNfNg9kal3xnqKxypHa_GlcB3tpex6YT/view?usp=sharing"
+                href="https://drive.google.com/file/d/1Gf-oSnnr1dbvDmaLErpJaplyUEtSlCFf/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >
