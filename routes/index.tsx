@@ -27,7 +27,7 @@ export default function About() {
               To find out more, please{" "}
               <a
                 class="hover:text-green-800 font-bold"
-                href="https://docs.google.com/document/d/1E1kWHfyMwnAf44LNHI8WtqTw7mKqbCDaPjlws0O73aA/export?format=pdf"
+                href="https://drive.google.com/file/d/1QNfNg9kal3xnqKxypHa_GlcB3tpex6YT/view?usp=sharing"
               >
                 download my resume.
               </a>
