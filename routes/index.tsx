@@ -28,6 +28,8 @@ export default function About() {
               <a
                 class="hover:text-green-800 font-bold"
                 href="https://drive.google.com/file/d/1QNfNg9kal3xnqKxypHa_GlcB3tpex6YT/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 download my resume.
               </a>
